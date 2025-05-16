@@ -31,18 +31,6 @@ header {
     border: 1px solid #ddd;
 }
 
-.imagem {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border: 1px solid #000;
-    margin-bottom: 20px;
-    background-image: linear-gradient(to top left, transparent 49%, black 49%, black 51%, transparent 51%), 
-                      linear-gradient(to top right, transparent 49%, black 49%, black 51%, transparent 51%);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
 .inicio {
     display: flex;
     align-items: center;
@@ -65,9 +53,7 @@ p {
 
 .sobre {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 100px;
@@ -77,14 +63,6 @@ p {
     flex: 2;
     max-width: 600px;
     text-align: center;
-}
-
-.imagens-sobre {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
 }
 
 .projetos {
